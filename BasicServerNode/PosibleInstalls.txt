@@ -1,0 +1,13 @@
+Si es necesario realizar validaciones, en parametros o en body usar:
+    express-validator
+
+Si para la autenticación se necesita jsonwebtoken usar:
+jsonwebtoken
+
+Si es necesario documentar los endpoints usar:
+    swagger-jsdoc
+    swagger-ui-express
+
+Si es necesario realizar pruebas unitarias utilizar:
+    jest
+    supertest

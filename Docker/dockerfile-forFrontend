@@ -1,0 +1,4 @@
+# Asegurarse de que se esté dento de la carpeta build y que esta contenga un archivo .html
+FROM nginx:alpine
+
+COPY build /usr/share/nginx/html

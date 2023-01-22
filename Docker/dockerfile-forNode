@@ -1,0 +1,13 @@
+FROM alpine
+
+RUN apk add --update nodejs npm
+WORKDIR /app
+
+COPY package.json /app
+RUN npm install
+COPY . .
+
+# Cambiar por el puerto que vaya a utilizar la aplicación
+EXPOSE 3000
+
+CMD ["node", "index.js"]
